@@ -17,7 +17,7 @@ public class FirstScene : MonoBehaviour {
         if (Input.GetMouseButtonDown(0))
         {
            
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("explanScene");
         }
         
     }

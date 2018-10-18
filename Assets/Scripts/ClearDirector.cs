@@ -39,4 +39,6 @@ public class ClearDirector : MonoBehaviour {
     {
         SceneManager.LoadScene("SampleScene");
     }
+
+   
 }

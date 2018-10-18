@@ -78,7 +78,7 @@ public class GameDiretor : MonoBehaviour {
 
             }
         }
-        can.GetComponent<Text>().text = can_get + "/3";
+        can.GetComponent<Text>().text = can_get + "/4";
 
         if (spanScroe > 0)
         {
@@ -118,7 +118,7 @@ public class GameDiretor : MonoBehaviour {
     public void AddCan()
     {
         can_get++;
-        if(can_get==3)
+        if(can_get==4)
         {
             fiver = true;
             can_get = 0;
